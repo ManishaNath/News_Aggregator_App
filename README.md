@@ -76,7 +76,8 @@ open the browser and type in **http://localhost:3000/** and hit enter! Follow th
 ## Postman
 
 ## POST /register
-Request
+**Request**
+
 {
   "fullName": "John Doe",
   "email": "john.doe@example.com",
@@ -84,12 +85,13 @@ Request
   "password": "password123",
   "preferences": ["sports", "technology"]
 }
-Response (Success)
+**Response (Success)**
 
 {
   "message": "User saved successfully"
 }
-Response (Error)
+
+**Response (Error)**
 
 {
   "message": "User saving failed [error message]"
@@ -213,18 +215,21 @@ The application can be deployed on cloud platforms like AWS, Heroku, or similar 
 The News Aggregator Application provides a seamless experience for users to stay updated on topics they care about. Its modular architecture allows for easy scalability and maintenance.
 
 ## Folder Structure
-
+```
 ├───src
 │   ├───config
 │   ├───controllers
 │   ├───middlewares
 │   ├───models
 │   ├───routes
+│   ├───services
 │   └───utils
-│       ├───common
+│      ├───common
 
 ____index.js
 ____.env
 ____.gitignore
 ____package-lock.json
 ____package.json
+
+```
