@@ -224,12 +224,13 @@ The News Aggregator Application provides a seamless experience for users to stay
 │   ├───routes
 │   ├───services
 │   └───utils
-│      ├───common
-
+│       ├───common
+│      
+│       
+└───
 ____index.js
 ____.env
 ____.gitignore
 ____package-lock.json
 ____package.json
-
 ```
